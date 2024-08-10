@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snapshot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-section">
+            <h1>Let's Take a Snapshot</h1>
+            <p>Snapshot website template is available for free download. Anyone can modify and use it for any site.</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+    </header>
+
+    <section class="background-info">
+        <h2>Background</h2>
+        <p>Quisque tempor bibendum dolor at volutpat...</p>
+        <div class="teammate-info" id="teammate-info">
+            <!-- This section will be populated dynamically using JavaScript -->
+        </div>
+    </section>
+    <section class="background-info">
+        <h2>Background</h2>
+        <div class="teammate-info" id="teammate-info">
+            <!-- This section will be populated dynamically using JavaScript -->
+            <img id="teammate-photo" src="" alt="" style="display: none;">
+            <h3 id="teammate-name"></h3>
+            <p id="teammate-description"></p>
+        </div>
+    </section>
+
+    <section class="team">
+        <h2>Snapshot Team</h2>
+        <div class="team-member" data-name="Linda, Manager"
+            data-info="Linda is the manager with over 10 years of experience in the field.">
+            <img src="imag2.jpg" alt="Linda">
+            <h3>Linda, Manager</h3>
+        </div>
+        <div class="team-member" data-name="Sandy, Director"
+            data-info="Sandy is the director with expertise in leadership and direction.">
+            <img src="imag2.jpg" alt="Sandy">
+            <h3>Sandy, Director</h3>
+        </div>
+        <div class="team-member" data-name="Lukia, Fashion"
+            data-info="Lukia is in charge of fashion with a keen eye for style and trends.">
+            <img src="imag2.jpg" alt="Lukia">
+            <h3>Lukia, Fashion</h3>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-item"><img src="imag2.jpg" alt="Gallery 1"></div>
+        <div class="gallery-item"><img src="imag2.jpg" alt="Gallery 2"></div>
+        <div class="gallery-item"><img src="imag2.jpg" alt="Gallery 3"></div>
+        <div class="gallery-item"><img src="imag2.jpg" alt="Gallery 4"></div>
+    </section>
+
+    <footer>
+        <div class="contact-form">
+            <h2>Send a Message</h2>
+            <form>
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <textarea name="message" placeholder="Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
